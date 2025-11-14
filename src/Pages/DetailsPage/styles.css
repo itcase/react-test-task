@@ -1,0 +1,29 @@
+.details-page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 84px 24px 24px 24px;
+    box-sizing: border-box;
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-container {
+    display: flex;
+    gap: 16px;
+}
+.details-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.radio-buttons-container {
+    display: flex;
+    flex-direction: row;
+}
+.radio-button-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

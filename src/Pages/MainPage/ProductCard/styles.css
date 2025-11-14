@@ -1,0 +1,20 @@
+.card-container {
+    width: 210px;
+    height: 380px;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.product-name {
+    color: white;
+    margin-bottom: 8px;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
