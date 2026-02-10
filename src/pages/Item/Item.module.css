@@ -1,0 +1,144 @@
+.mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.cardBox {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: green;
+  text-decoration: none;
+}
+
+.itemCard {
+  padding: 20px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.previewImg {
+  width: 250px;
+  object-fit: contain;
+}
+
+.imgsList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.smallImg {
+  width: 70px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.imageBarItem {
+  padding: 3px;
+}
+
+.imageBarItem.active {
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.colorTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.colorsList,
+.sizesList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.sizesList:empty {
+  display: none;
+}
+
+.colorItem,
+.sizeItem {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.colorItem.active,
+.sizeItem.active {
+  padding: 4px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.price,
+.sizeText {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.line {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  border: 1px solid red;
+  color: red;
+}
