@@ -1,17 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
 
-import App from './App'
+import App from "./App";
 
-import './styles/index.css'
+import "./styles/index.css";
+import { BrowserRouter } from "react-router-dom";
+import { createRoot } from "react-dom/client";
+import { AppProvider } from "./store";
 
-const rootView = document.getElementById('root')
-
-if (rootView) {
-  ReactDOM.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-    rootView
-  )
-}
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <AppProvider>
+        <App />
+      </AppProvider>
+    </BrowserRouter>
+  </React.StrictMode>,
+);

@@ -1,0 +1,16 @@
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  font-size: 60px;
+  line-height: 68px;
+  width: 100dvw;
+  height: 100dvh;
+
+  a {
+    text-decoration: none;
+    color: green;
+  }
+}
