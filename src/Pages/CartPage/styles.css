@@ -1,0 +1,13 @@
+.card-page-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px 24px 24px 24px;
+    box-sizing: border-box;
+}
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px
+}
