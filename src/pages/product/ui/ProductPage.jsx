@@ -15,7 +15,6 @@ export function ProductPage() {
   const [product, setProduct] = useState(null);
   const [sizes, setSizes] = useState([]);
   const [status, setStatus] = useState("loading");
-  const [error, setError] = useState("");
 
   const colorParam = searchParams.get("color");
   const sizeParam = searchParams.get("size");
@@ -23,7 +22,6 @@ export function ProductPage() {
   useEffect(() => {
     let cancelled = false;
     setStatus("loading");
-    setError("");
 
     Promise.all([getProduct(id), getSizes()])
       .then(([productData, sizesData]) => {
@@ -32,10 +30,9 @@ export function ProductPage() {
         setSizes(sizesData);
         setStatus("ready");
       })
-      .catch((err) => {
+      .catch(() => {
         if (cancelled) return;
         setProduct(null);
-        setError(err?.message || "Товар не найден");
         setStatus("not-found");
       });
 
@@ -107,7 +104,6 @@ export function ProductPage() {
       <PageLayout>
         <EmptyState
           title="Товар не найден"
-          description={error}
           action={
             <Link to={routes.catalog} className="product-page__back">
               назад
