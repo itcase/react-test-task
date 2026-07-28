@@ -6,8 +6,10 @@ export function resolveVariantSelection(product, colorId, sizeId) {
   }
 
   let color = findColor(product, colorId);
-  if (!color || color.sizes.length === 0) {
-    color = product.colors.find((entry) => entry.sizes.length > 0) ?? product.colors[0];
+
+  if (!color) {
+    color =
+      product.colors.find((entry) => entry.sizes.length > 0) ?? product.colors[0];
   }
 
   let nextSizeId = sizeId;
