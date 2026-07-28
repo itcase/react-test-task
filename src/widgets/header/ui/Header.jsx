@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { useCart } from "../../../entities/cart";
-import { formatPrice } from "../../../shared/lib";
-import { routes } from "../../../shared/config";
+import { useCart } from "entities/cart";
+import { formatPrice } from "shared/lib";
+import { routes } from "shared/config";
 import "./Header.css";
 
 export function Header() {

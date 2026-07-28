@@ -1,4 +1,4 @@
-import { formatPrice } from "../../../shared/lib";
+import { formatPrice } from "shared/lib";
 import { selectLineTotal } from "../model/cart";
 import "./CartItem.css";
 

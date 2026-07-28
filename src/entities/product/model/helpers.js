@@ -1,4 +1,4 @@
-import { parsePrice } from "../../../shared/lib";
+import { parsePrice } from "shared/lib";
 
 export function getMinPrice(product) {
   if (!product?.colors?.length) {

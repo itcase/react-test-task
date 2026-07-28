@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { formatPrice } from "../../../shared/lib";
-import { routes } from "../../../shared/config";
+import { formatPrice } from "shared/lib";
+import { routes } from "shared/config";
 import { getMinPrice, getProductImage, isInStock } from "../model/helpers";
 import "./ProductCard.css";
 

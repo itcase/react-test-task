@@ -1,5 +1,5 @@
-import { isSizeAvailable, getSizeLabel } from "../../../entities/product";
-import { Button } from "../../../shared/ui";
+import { isSizeAvailable, getSizeLabel } from "entities/product";
+import { Button } from "shared/ui";
 import "./VariantSelector.css";
 
 export function VariantSelector({

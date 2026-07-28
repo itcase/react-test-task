@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { Header } from "./Header";
 
-jest.mock("../../../entities/cart", () => ({
+jest.mock("entities/cart", () => ({
   useCart: () => ({
     count: 3,
     total: 321.5,

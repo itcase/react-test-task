@@ -1,4 +1,4 @@
-import { findColor, isSizeAvailable } from "../../../entities/product";
+import { findColor, isSizeAvailable } from "entities/product";
 
 export function resolveVariantSelection(product, colorId, sizeId) {
   if (!product?.colors?.length) {

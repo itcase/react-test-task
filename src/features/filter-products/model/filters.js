@@ -3,7 +3,3 @@ export const DEFAULT_FILTERS = {
   inStockOnly: false,
   sort: "asc",
 };
-
-export function createFiltersPatch(field, value) {
-  return { [field]: value };
-}

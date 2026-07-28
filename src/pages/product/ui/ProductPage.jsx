@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { getProduct, ProductGallery, findSizeById, getSizes } from "../../../entities/product";
-import { resolveVariantSelection } from "../../../features/select-variant";
-import { ProductBuy } from "../../../widgets/product-buy";
-import { formatPrice } from "../../../shared/lib";
-import { routes } from "../../../shared/config";
-import { EmptyState, PageLayout, Spinner } from "../../../shared/ui";
+import { getProduct, ProductGallery, findSizeById, getSizes } from "entities/product";
+import { resolveVariantSelection } from "features/select-variant";
+import { ProductBuy } from "widgets/product-buy";
+import { formatPrice } from "shared/lib";
+import { routes } from "shared/config";
+import { EmptyState, PageLayout, Spinner } from "shared/ui";
 import "./ProductPage.css";
 
 export function ProductPage() {

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { useCart } from "../../../entities/cart";
-import { CartPanel } from "../../../widgets/cart-panel";
-import { routes } from "../../../shared/config";
-import { EmptyState, PageLayout } from "../../../shared/ui";
+import { useCart } from "entities/cart";
+import { CartPanel } from "widgets/cart-panel";
+import { routes } from "shared/config";
+import { EmptyState, PageLayout } from "shared/ui";
 import "./CartPage.css";
 
 export function CartPage() {

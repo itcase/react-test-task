@@ -1,10 +1,10 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { CartProvider } from "../entities/cart";
-import { CatalogPage } from "../pages/catalog";
-import { ProductPage } from "../pages/product";
-import { CartPage } from "../pages/cart";
-import { Header } from "../widgets/header";
-import { routes } from "../shared/config";
+import { CartProvider } from "entities/cart";
+import { CatalogPage } from "pages/catalog";
+import { ProductPage } from "pages/product";
+import { CartPage } from "pages/cart";
+import { Header } from "widgets/header";
+import { routes } from "shared/config";
 
 export function App() {
   return (

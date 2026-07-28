@@ -1,2 +1,2 @@
 export { ProductFilters } from "./ui/ProductFilters";
-export { DEFAULT_FILTERS, createFiltersPatch } from "./model/filters";
+export { DEFAULT_FILTERS } from "./model/filters";

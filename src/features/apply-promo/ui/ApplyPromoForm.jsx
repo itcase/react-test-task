@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { resolvePromo, useCart } from "../../../entities/cart";
-import { Button } from "../../../shared/ui";
+import { resolvePromo, useCart } from "entities/cart";
+import { Button } from "shared/ui";
 import "./ApplyPromoForm.css";
 
 export function ApplyPromoForm() {

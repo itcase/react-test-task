@@ -1,6 +1,6 @@
-import { createCartItem, useCart } from "../../../entities/cart";
-import { findSizeById, getSizeLabel } from "../../../entities/product";
-import { Button } from "../../../shared/ui";
+import { createCartItem, useCart } from "entities/cart";
+import { findSizeById, getSizeLabel } from "entities/product";
+import { Button } from "shared/ui";
 
 export function AddToCartButton({ product, color, sizeId, sizes, disabled }) {
   const { addToCart } = useCart();

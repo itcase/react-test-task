@@ -1,5 +1,5 @@
-import { useCart } from "../../../entities/cart";
-import { Button } from "../../../shared/ui";
+import { useCart } from "entities/cart";
+import { Button } from "shared/ui";
 import "./ManageCartItem.css";
 
 export function ManageCartItem({ itemKey, quantity }) {

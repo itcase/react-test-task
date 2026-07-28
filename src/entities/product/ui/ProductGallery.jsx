@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "../../../shared/ui";
+import { Button } from "shared/ui";
 import "./ProductGallery.css";
 
 export function ProductGallery({ images = [], alt = "" }) {

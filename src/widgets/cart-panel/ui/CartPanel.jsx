@@ -1,6 +1,6 @@
-import { CartItemView, CartTotals } from "../../../entities/cart";
-import { ApplyPromoForm } from "../../../features/apply-promo";
-import { ManageCartItem } from "../../../features/manage-cart-item";
+import { CartItemView, CartTotals } from "entities/cart";
+import { ApplyPromoForm } from "features/apply-promo";
+import { ManageCartItem } from "features/manage-cart-item";
 import "./CartPanel.css";
 
 export function CartPanel({ items, subtotal, discount, total, promo }) {

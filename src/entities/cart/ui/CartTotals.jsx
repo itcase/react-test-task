@@ -1,4 +1,4 @@
-import { formatPrice } from "../../../shared/lib";
+import { formatPrice } from "shared/lib";
 import "./CartTotals.css";
 
 export function CartTotals({ subtotal, discount, total, promo }) {

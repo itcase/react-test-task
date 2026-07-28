@@ -1,5 +1,5 @@
-import { AddToCartButton } from "../../../features/add-to-cart";
-import { VariantSelector } from "../../../features/select-variant";
+import { AddToCartButton } from "features/add-to-cart";
+import { VariantSelector } from "features/select-variant";
 import "./ProductBuy.css";
 
 export function ProductBuy({

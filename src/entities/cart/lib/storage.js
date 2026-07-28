@@ -1,4 +1,4 @@
-import { loadJson, saveJson } from "../../../shared/lib";
+import { loadJson, saveJson } from "shared/lib";
 import { CART_STORAGE_KEY } from "../model/cart";
 
 export function loadCartState() {

@@ -1,6 +1,6 @@
 export const CART_STORAGE_KEY = "catalog-cart";
 
-export function createCartItemKey({ productId, colorId, sizeId }) {
+function createCartItemKey({ productId, colorId, sizeId }) {
   return `${productId}:${colorId}:${sizeId}`;
 }
 

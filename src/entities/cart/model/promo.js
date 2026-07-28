@@ -1,9 +1,9 @@
-export const PROMO_CODES = {
+const PROMO_CODES = {
   SALE10: { type: "percent", value: 10, label: "Скидка 10%" },
   MINUS50: { type: "fixed", value: 50, label: "−50.00" },
 };
 
-export function normalizePromoCode(code) {
+function normalizePromoCode(code) {
   return String(code || "")
     .trim()
     .toUpperCase();

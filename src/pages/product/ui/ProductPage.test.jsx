@@ -2,8 +2,8 @@ import { render, screen, waitFor } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { ProductPage } from "./ProductPage";
 
-jest.mock("../../../entities/product", () => {
-  const actual = jest.requireActual("../../../entities/product");
+jest.mock("entities/product", () => {
+  const actual = jest.requireActual("entities/product");
   return {
     ...actual,
     getProduct: jest.fn(),
@@ -14,15 +14,15 @@ jest.mock("../../../entities/product", () => {
   };
 });
 
-jest.mock("../../../features/select-variant", () => ({
+jest.mock("features/select-variant", () => ({
   resolveVariantSelection: () => ({ color: null, sizeId: null }),
 }));
 
-jest.mock("../../../widgets/product-buy", () => ({
+jest.mock("widgets/product-buy", () => ({
   ProductBuy: () => null,
 }));
 
-const { getProduct } = jest.requireMock("../../../entities/product");
+const { getProduct } = jest.requireMock("entities/product");
 
 describe("pages/product not-found", () => {
   test("shows not found screen", async () => {

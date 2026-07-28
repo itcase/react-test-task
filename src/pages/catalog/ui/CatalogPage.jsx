@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { ProductCard, filterProducts, getProducts } from "../../../entities/product";
-import { DEFAULT_FILTERS } from "../../../features/filter-products";
-import { CatalogToolbar } from "../../../widgets/catalog-toolbar";
-import { EmptyState, PageLayout, Spinner } from "../../../shared/ui";
+import { ProductCard, filterProducts, getProducts } from "entities/product";
+import { DEFAULT_FILTERS, ProductFilters } from "features/filter-products";
+import { EmptyState, PageLayout, Spinner } from "shared/ui";
 import "./CatalogPage.css";
 
 export function CatalogPage() {
@@ -38,7 +37,7 @@ export function CatalogPage() {
     <PageLayout>
       <h1 className="catalog-page__title">Каталог товаров</h1>
 
-      <CatalogToolbar
+      <ProductFilters
         value={filters}
         onChange={(patch) => setFilters((prev) => ({ ...prev, ...patch }))}
       />
