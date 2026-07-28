@@ -1,0 +1,5 @@
+.ui-page {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}

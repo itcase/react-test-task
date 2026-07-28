@@ -1,0 +1,21 @@
+.cart-page__title {
+  margin: 0 0 1.25rem;
+  color: #e8eaed;
+}
+
+.cart-page__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cart-page__back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #4ea1ff;
+  text-decoration: none;
+}
+
+.cart-page__back:hover {
+  color: #79b7ff;
+}

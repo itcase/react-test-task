@@ -1,0 +1,38 @@
+.apply-promo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  max-width: 360px;
+}
+
+.apply-promo__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: #aeb4bf;
+}
+
+.apply-promo__field input {
+  padding: 0.5rem 0.65rem;
+  border: 1px solid #3a4150;
+  border-radius: 4px;
+  background: #1c2129;
+  color: #e8eaed;
+  font: inherit;
+}
+
+.apply-promo__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.apply-promo__error {
+  margin: 0;
+  color: #ff8a8a;
+}
+
+.apply-promo__ok {
+  margin: 0;
+  color: #7dcea0;
+}

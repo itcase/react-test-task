@@ -1,0 +1,9 @@
+.product-buy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-buy__actions {
+  margin-top: 0.25rem;
+}

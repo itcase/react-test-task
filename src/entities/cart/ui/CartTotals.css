@@ -1,0 +1,22 @@
+.cart-totals {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #3a4150;
+  color: #e8eaed;
+}
+
+.cart-totals p {
+  margin: 0;
+}
+
+.cart-totals__discount {
+  color: #7dcea0;
+}
+
+.cart-totals__final {
+  font-size: 1.2rem;
+  font-weight: 600;
+}

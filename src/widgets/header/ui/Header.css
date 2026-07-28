@@ -1,0 +1,33 @@
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(15, 17, 21, 0.92);
+  border-bottom: 1px solid #2a2f38;
+  backdrop-filter: blur(8px);
+}
+
+.app-header__nav {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 0.85rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-header__link,
+.app-header__cart {
+  color: #4ea1ff;
+  text-decoration: none;
+}
+
+.app-header__link:hover,
+.app-header__cart:hover {
+  color: #79b7ff;
+}
+
+.app-header__cart {
+  font-weight: 600;
+}

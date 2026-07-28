@@ -1,0 +1,40 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f1115;
+  --text: #e8eaed;
+  --muted: #aeb4bf;
+  --accent: #4ea1ff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top, #1a2230 0%, var(--bg) 55%);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  color: var(--accent);
+}

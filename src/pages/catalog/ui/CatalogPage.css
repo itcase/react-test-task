@@ -1,0 +1,11 @@
+.catalog-page__title {
+  margin: 0 0 1.25rem;
+  color: #e8eaed;
+  font-size: 1.75rem;
+}
+
+.catalog-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+}

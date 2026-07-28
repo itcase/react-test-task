@@ -1,0 +1,17 @@
+.variant-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.variant-selector__group h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: #e8eaed;
+}
+
+.variant-selector__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

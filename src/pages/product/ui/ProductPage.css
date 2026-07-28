@@ -1,0 +1,56 @@
+.product-page {
+  display: grid;
+  grid-template-columns: minmax(240px, 420px) 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.product-page__info h1 {
+  margin: 0 0 0.35rem;
+  color: #e8eaed;
+}
+
+.product-page__brand {
+  margin: 0 0 0.75rem;
+  color: #8b929e;
+}
+
+.product-page__price {
+  margin: 0 0 0.75rem;
+  font-size: 1.4rem;
+  color: #4ea1ff;
+}
+
+.product-page__description {
+  margin: 0 0 1.25rem;
+  color: #c5cad3;
+  line-height: 1.45;
+}
+
+.product-page__actions {
+  margin-top: 1.5rem;
+}
+
+.product-page__back,
+.product-page__back-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #4ea1ff;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.product-page__back:hover,
+.product-page__back-button:hover {
+  color: #79b7ff;
+}
+
+@media (max-width: 768px) {
+  .product-page {
+    grid-template-columns: 1fr;
+  }
+}

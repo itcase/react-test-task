@@ -1,0 +1,12 @@
+.manage-cart-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: flex-start;
+}
+
+.manage-cart-item__qty {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
